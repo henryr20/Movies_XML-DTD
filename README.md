@@ -18,7 +18,6 @@ It shows how to define complex structures such as multiple genres, optional rati
 Resources that helped build this project:  
 - [XML DTD Basics – W3Schools](https://www.w3schools.com/xml/xml_dtd_intro.asp)  
 - [GitHub README template by Othneil Drew](https://github.com/othneildrew/Best-README-Template)  
-- [XML Validator Online](https://www.xmlvalidation.com/)  
 
 ## Author  
 - Enrique J. Romero Ramírez (IES El Rincón – 1º DAMTA)
