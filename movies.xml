@@ -45,7 +45,6 @@
                 <role>Mercedes</role>
             </actor>
         </cast>
-        <!-- rating es opcional; lo omitimos aquí a propósito -->
         <duration>119</duration>
     </movie>
 
@@ -69,4 +68,5 @@
         <rating>8.6</rating>
         <duration>125</duration>
     </movie>
+
 </cinema>
