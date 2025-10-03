@@ -1,0 +1,14 @@
+<!ELEMENT cinema (movie+)>
+<!ELEMENT movie (title, director, year, genre+, cast, rating?, duration)>
+<!ATTLIST movie id ID #REQUIRED language CDATA #IMPLIED>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT cast (actor+)>
+<!ELEMENT actor (name, role)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT role (#PCDATA)>
+<!ELEMENT rating (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cinema SYSTEM "movies.dtd">
+<cinema>
+    <movie id="m1" language="en">
+        <title>Inception</title>
+        <director>Christopher Nolan</director>
+        <year>2010</year>
+        <genre>Science Fiction</genre>
+        <genre>Thriller</genre>
+        <cast>
+            <actor>
+                <name>Leonardo DiCaprio</name>
+                <role>Dom Cobb</role>
+            </actor>
+            <actor>
+                <name>Joseph Gordon-Levitt</name>
+                <role>Arthur</role>
+            </actor>
+            <actor>
+                <name>Elliot Page</name>
+                <role>Ariadne</role>
+            </actor>
+        </cast>
+        <rating>8.8</rating>
+        <duration>148</duration>
+    </movie>
+
+    <movie id="m2" language="es">
+        <title>El laberinto del fauno</title>
+        <director>Guillermo del Toro</director>
+        <year>2006</year>
+        <genre>Fantasy</genre>
+        <genre>War</genre>
+        <cast>
+            <actor>
+                <name>Ivana Baquero</name>
+                <role>Ofelia</role>
+            </actor>
+            <actor>
+                <name>Sergi López</name>
+                <role>Capitán Vidal</role>
+            </actor>
+            <actor>
+                <name>Maribel Verdú</name>
+                <role>Mercedes</role>
+            </actor>
+        </cast>
+        <!-- rating es opcional; lo omitimos aquí a propósito -->
+        <duration>119</duration>
+    </movie>
+
+    <movie id="m3">
+        <title>Spirited Away</title>
+        <director>Hayao Miyazaki</director>
+        <year>2001</year>
+        <genre>Animation</genre>
+        <genre>Adventure</genre>
+        <genre>Fantasy</genre>
+        <cast>
+            <actor>
+                <name>Rumi Hiiragi</name>
+                <role>Chihiro</role>
+            </actor>
+            <actor>
+                <name>Miyu Irino</name>
+                <role>Haku</role>
+            </actor>
+        </cast>
+        <rating>8.6</rating>
+        <duration>125</duration>
+    </movie>
+</cinema>
